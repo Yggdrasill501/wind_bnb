@@ -1,9 +1,9 @@
-import Categories from "./components/Categories";
+import Categories from "./components/categories"
 
 export default function Home() {
   return (
     <main className="main">
-        <Categories />
+        <Categories/>
     </main>
   );
 }
