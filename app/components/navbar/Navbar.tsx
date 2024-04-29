@@ -11,7 +11,7 @@ const Navbar = () => {
             <div className="max-w[1500px] mx-auto px-6">
                 <div className="flex justify-between items-center">
                     <Link href="/">
-                        <Image src="/logo.svg" alt="Logo" width={180} height={38} />
+                        <Image src="./logo.svg" alt="Logo" width={180} height={38} />
                     </Link>
                     <div className="flex items-center space-x-6">
                         <SearchFilers/> 
