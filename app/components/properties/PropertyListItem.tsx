@@ -1,4 +1,12 @@
 import Image from 'next/image';
+import {PropertyType} from './ProprtyList';
+import {UserRouter} from 'next/router';
+
+
+interface PropertyProps {
+    property: PropertyType;
+    makrFavorite: (is_favorite: boolean) => void;
+}
 
 const PropertyListItem = () => {
     return (
