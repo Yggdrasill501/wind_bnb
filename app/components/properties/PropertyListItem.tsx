@@ -1,10 +1,10 @@
 import Image from 'next/image';
 import {PropertyType} from './PropertyList';
-import {UserRouter} from 'next/router';
+import {useRouter} from 'next/router';
 
 
 interface PropertyProps {
-    property: PropertyType;
+    property: typeof PropertyType;
     makrFavorite: (is_favorite: boolean) => void;
 }
 
