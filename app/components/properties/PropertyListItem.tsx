@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import {PropertyType} from './ProprtyList';
+import {PropertyType} from './PropertyList';
 import {UserRouter} from 'next/router';
 
 
